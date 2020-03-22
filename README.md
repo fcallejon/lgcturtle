@@ -29,4 +29,13 @@ Only one line:
 
 ## Run
 
-There are two scripts
+There are two scripts `run.sh` and `run.ps1` to run it in a bash terminal or PowerShell respectively.
+Both will run a few scenarios using [small.txt](./small.txt) maze.
+It will run the moves:
+1. [toExit](./toExit.txt)
+2. [toABomb](./toABomb.txt)
+3. [toOutBounds](./toOutBounds.txt)
+4. [notOut](./notOut.txt)
+5. [circle](./circle.txt)
+
+There is also one last run that will use [small-NoEdgeStart.txt](./small-NoEdgeStart.txt) maze and [noEdgeStart-win.txt](./noEdgeStart-win.txt) to show how it can run with a start that is not an edge of the maze.
